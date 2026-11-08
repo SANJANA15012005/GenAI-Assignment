@@ -1,0 +1,8 @@
+{
+    "lessons_learned": [
+        "accuracy: Incorrect technical claim detected: rag updates the model weights. RAG retrieves external information without directly retraining the model.",
+        "Remove the contradictory and factually incorrect line: 'Testing statement: RAG updates the model weights.'",
+        "Explicitly reinforce in the summary that RAG is an inference-time (runtime) technique and does not involve model fine-tuning or parameter updates.",
+        "Add a brief clarification on what happens if the vector database does not find relevant documents (fallback/safe response behavior)."
+    ]
+}
